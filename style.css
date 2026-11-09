@@ -145,7 +145,7 @@ HIGHLIGHTS
 }
 
 .highlight {
-  padding: 0 24px;
+  padding: 0 12px;
   width: calc(100% / 3);
   display: flex;
   align-items: center;
@@ -154,6 +154,12 @@ HIGHLIGHTS
 }
 
 .highlight__para {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.highlight__subtitle {
+  margin-bottom: 12px;
   text-align: center;
 }
 
@@ -166,5 +172,6 @@ HIGHLIGHTS
   justify-content: center;
   border-radius: 4px;
   font-size: 32px;
+  color: #7342d6;
 }
 
