@@ -139,5 +139,5 @@ HIGHLIGHTS
 
 .highlight {
   padding: 0 24px;
-  width: calc(100 / 3);
+  width: calc(100% / 3);
 }
