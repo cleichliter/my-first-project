@@ -66,10 +66,7 @@ li {
   background-color: rgba(115, 66, 214, 0.1);
 }
 header {
-  height: calc(100vh - 80px);
-}
-
-.header__container {
+  container {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
@@ -90,6 +87,8 @@ header {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 h1 {
@@ -145,7 +144,7 @@ HIGHLIGHTS
 }
 
 #highlights:before {
-  /* background: url(assets/wave.svg);
+  background: url(assets/wave.svg);
   content: "";
   position: absolute;
   top: 1px;
@@ -155,7 +154,7 @@ HIGHLIGHTS
   height: 12vw;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 1; */
+  z-index: 1; 
 }
 
 #highlights:after {
@@ -201,4 +200,5 @@ HIGHLIGHTS
   border-radius: 4px;
   font-size: 32px;
   color: #7342d6;
+
 }
