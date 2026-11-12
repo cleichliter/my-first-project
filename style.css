@@ -73,9 +73,8 @@ li {
 header {
   min-height: calc(100vh - 80px);
 }
-  
-  
- .container {
+
+.container {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
@@ -83,7 +82,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  }
+}
 
 .header__description {
   display: flex;
@@ -163,7 +162,7 @@ HIGHLIGHTS
   left: 0;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 1; 
+  z-index: 1;
 }
 
 #highlights:before {
@@ -177,7 +176,7 @@ HIGHLIGHTS
   height: 12vw;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 1; 
+  z-index: 1;
 }
 
 #highlights:after {
@@ -228,7 +227,6 @@ HIGHLIGHTS
   color: #7342d6;
 }
 
-
 /*
 
 FEATURES
@@ -236,7 +234,48 @@ FEATURES
 */
 
 #features {
+  padding-top: 8vw;
   height: 1000px;
   background-color: rgba(115, 66, 214, 0.1);
-  
+}
+
+.books {
+  width: 25px;
+  padding: 24px;
+}
+
+.book__img {
+  max-height: 380px;
+  transition: all 300ms ease;
+  cursor: no-drop;
+}
+
+.book__img--wrapper {
+  margin-bottom: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+}
+
+.book:hover .book__img {
+  transform: translateY(1.0);
+}
+
+.book__title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.book__title:hover {
+  text-decoration: underline;
+  cursor: not-allowed
+}
+
+.book__ratings {
+  margin-bottom: 8px;
+  color: #fabf2a;
+}
+
+.book__price--normal {
+  text-decoration: line-through;
 }
