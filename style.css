@@ -154,7 +154,7 @@ HIGHLIGHTS
 }
 
 #highlights:after,
-#highlights:before, {
+#highlights:before {
   background: url(assets/wave.svg);
   content: "";
   position: absolute;
@@ -189,6 +189,8 @@ HIGHLIGHTS
   bottom: 0px;
   left: 0;
   transform: translateY(100%) rotate(180deg);
+  background-size: cover;
+  background-repeat: no-cover;
 }
 
 .highlight__wrapper {
