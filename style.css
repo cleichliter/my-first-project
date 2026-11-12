@@ -190,7 +190,7 @@ HIGHLIGHTS
   left: 0;
   transform: translateY(100%) rotate(180deg);
   background-size: cover;
-  background-repeat: no-cover;
+  background-repeat: no-repeat;
 }
 
 .highlight__wrapper {
