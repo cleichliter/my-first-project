@@ -113,6 +113,7 @@ h2 {
 
 button {
   cursor: pointer;
+  
 }
 
 button:active {
@@ -139,6 +140,13 @@ button:active {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 /* 
@@ -303,7 +311,19 @@ FEATURES
 
 .book__price {
   font-size: 15px;
-  
 }
+
+/*
+
+EXPLORE
+
+*/
+
+#explore {
+  background-color: rgba(115, 66, 214, 0.1)
+}
+
+
+
 
 
