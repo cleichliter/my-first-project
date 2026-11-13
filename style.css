@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-@mdia (max-width: 768px)
 
 * {
   padding: 0;
@@ -97,7 +96,6 @@ li {
   text-align: center;
   border: none;
   color: #7342d6;
-  display: none;
   display: block;
 }
 
@@ -430,4 +428,9 @@ footer {
   padding: 0 8px;
   color: white;
 
+}
+
+@media (max-width: 768px) {
+  .nav__links { display: none; }
+  .btn__menu { display: block; }
 }
