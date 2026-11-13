@@ -240,14 +240,23 @@ FEATURES
 }
 
 .books {
-  width: 25px;
+  width: 100%;
   padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.book {
+  width: calc(25% - 18px);
 }
 
 .book__img {
   max-height: 380px;
   transition: all 300ms ease;
   cursor: no-drop;
+  width: 100%;
+  object-fit: contain;
 }
 
 .book__img--wrapper {
@@ -271,11 +280,30 @@ FEATURES
   cursor: not-allowed
 }
 
-.book__ratings {
+.book__rating {
   margin-bottom: 8px;
   color: #fabf2a;
+  display: flex;
+  justify-content: start;
+  font-size: 15px;
+  
 }
 
 .book__price--normal {
   text-decoration: line-through;
+  padding-right: 6px;
+  color: #bfbfbf;
+  font-size: 12px;
+  justify-content: start;
 }
+
+#latest {
+  background-color: white;
+}
+
+.book__price {
+  font-size: 15px;
+  
+}
+
+
